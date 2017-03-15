@@ -1,7 +1,7 @@
 # Master_Thesis_Rajib-Das
 Master thesis on 'Mining Opinionated Product Features from Amazon Reviews'
 
-For extracting nounu features code is written in Java and it requires stanford-postagger-3.6.0, Jsoup, Slf4j-api, Htmlparser Java and Jackson-all. First we need to call HugeJSONRead3 class in order to get noun features (.csv file) and we have to insert into database counting noun frequency and review numbers.
+For extracting features code is written in Java and it requires stanford-postagger-3.6.0, Jsoup, Slf4j-api, Htmlparser Java and Jackson-all. First we need to call HugeJSONRead3 class in order to get noun features (.csv file) and we have to insert into database counting noun frequency and review numbers.
 
 
 If we wan to visualize noun features as wourdcloud, we have to call python class wcloud. For sentiment analysis we use a simple dictionary-based tool for sentiment analysis a sentence based on SentiWordNet 3.0 Sentiment scores are between -1 and 1, greater than 0 for positive and less than 0 for negative.
