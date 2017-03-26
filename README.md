@@ -18,4 +18,4 @@ First download SentiWordNet 3.0 here, and delete any header and footer lines so 
 Initialize SentimentAnalysis with your SentiWordNet filesname and choice of weighting across word senses.
 
 
-For extracting opinion phrases we used Stanford CoreNLP parser, code is written in Java and it requires Stanford CoreNLP 3.4, Stanford Parser, JUnit and Mongo Java driver (if one plan to run it over many reviews stored in Mongo). If we don't use Mongo, just call the run method in Extract class giving it the text to extract opinion phrases from.
+For mining opinion words we used Stanford CoreNLP parser, code is written in Java and it requires Stanford CoreNLP 3.4, Stanford Parser, JUnit and Mongo Java driver (if one plan to run it over many reviews stored in Mongo). If we don't use Mongo, just call the run method in Extract class giving it the text to extract opinion words from it.
